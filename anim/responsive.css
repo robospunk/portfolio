@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+/* ---------------- colors ---------------- */
+/* ---------------- colors ---------------- */
+
+.neon { background-color: #4bd675; }
+
+.lgreen { background-color: #43ab91; }
+
+.mgreen { background-color: #335e50; }
+
+.dgreen { background-color: #1c302e; }
+
+.dblue { background-color: #061426; }
+
+.mblue { background-color: #57d4d0; }
+
+.lblue { background-color: #abfbff; }
+
+
+
+/* ---------------- colors ---------------- */
+/* ---------------- colors ---------------- */
+
+/* #responsive {
+    height: 210px;
+    font-size: 10px;
+} */
+
+.center {
+    margin: auto;
+}
+
+.border {
+    border: 3px dotted black;
+}
+
+
+.outside {
+    width: 6.5em;
+    height: 13em;
+    padding: .75em 0 .625em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    animation: outside 5s ease-in-out infinite;
+    position: relative;
+    margin: 3em auto 5em;
+
+/*   ---------- this font size controls the size of the graphic ---------*/
+/*   ---------- this font size controls the size of the graphic ---------*/
+                /* font-size: 16px; */
+/*   ---------- this font size controls the size of the graphic ---------*/
+/*   ---------- this font size controls the size of the graphic ---------*/
+
+}
+
+.screen {
+    width: 5.25em;
+    height: 10.5em;
+    padding: .5em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    overflow: hidden;
+    animation: screen 5s ease-in-out infinite;
+}
+
+.button {
+    width: 1em;
+    height: .5em;
+    animation: button 5s ease-in-out infinite;
+}
+
+.stand {
+    position: absolute;
+    height: 2em;
+    width: 2em;
+    bottom: -2em;
+    transform-origin: top;
+    transform: rotateX(90deg);
+    animation: stand 5s ease-in-out infinite;
+}
+.stand:after {
+    content: "";
+    border-top: 1.5em solid #1c302e;
+    border-bottom: 2em solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    width: 8em;
+    bottom: -3em;
+    right: -3em;
+}
+
+.content:nth-child(1) {
+    animation: content1 5s ease-in-out infinite;
+    grid-column: span 4;
+    margin-bottom: .25em ;
+}
+.content:nth-child(2) {
+    animation: content2 5s ease-in-out infinite;
+    margin-bottom: .25em ;
+    margin-top: .25em ;
+}
+.content:nth-child(3) {
+    animation: content3 5s ease-in-out infinite;
+    margin-bottom: .25em ;
+    margin-top: .25em ;
+}
+.content:nth-child(4) {
+    animation: content4 5s ease-in-out infinite;
+    margin-bottom: .25em ;
+    margin-top: .25em ;
+}
+.content:nth-child(5) {
+    animation: content5 5s ease-in-out infinite;
+    margin-bottom: .25em ;
+    margin-top: .25em ;
+}
+.content:nth-child(6) {
+    animation: content6 5s ease-in-out infinite;
+    margin-bottom: .25em ;
+    margin-top: .25em ;
+}
+.content:nth-child(7) {
+    animation: content7 5s ease-in-out infinite;
+    margin-bottom: .25em ;
+    margin-top: .25em ;
+}
+.content:nth-child(8) {
+    animation: content8 5s ease-in-out infinite;
+    margin-bottom: .25em ;
+    margin-top: .25em ;
+}
+.content:nth-child(9) {
+    animation: content9 5s ease-in-out infinite;
+    margin-bottom: .25em ;
+    margin-top: .25em ;
+}
+.content:nth-child(10) {
+    animation: content10 5s ease-in-out infinite;
+    margin-top: .25em ;
+    grid-column: span 2;
+}
+.content:nth-child(11) {
+    animation: content11 5s ease-in-out infinite;
+    grid-column: span 2;
+    margin-top: .25em ;
+}
+
+
+
+/* ---------------- animation ---------------- */
+/* ---------------- animation ---------------- */
+
+@keyframes outside {
+    100%,
+    0%,
+    20%
+    {
+        width: 6.5em;
+        height: 13em;
+    }
+
+    30%,
+    50%
+    {
+        width: 12em;
+        height: 15em;
+    }
+
+    60%,
+    80%
+    {
+        width: 22em;
+        height: 15em;
+    }
+
+}
+
+@keyframes screen {
+    100%,
+    0%,
+    20%
+    {
+        width: 5.25em;
+        height: 10.5em;
+    }
+
+    30%,
+    50%
+    {
+        width: 10.5em;
+        height: 12.5em;
+    }
+
+    60%,
+    80%
+    {
+        width: 20.5em;
+        height: 13.5em;
+    }
+
+}
+@keyframes button {
+    100%,
+    0%,
+    20%
+    {
+        width: 1em;
+        height: .5em;
+        transform: translate(0);
+    }
+
+    30%,
+    50%
+    {
+        width: 1em;
+        height: .5em;
+        transform: translate(0);
+    }
+
+    60%,
+    80%
+    {
+        width: 1em;
+        height: .25em;
+        transform: translate(0, .3em);
+    }
+}
+
+@keyframes stand {
+    100%,
+    0%,
+    20%,
+    90%
+    {
+        transform: rotateX(90deg);
+    }
+
+    30%,
+    50%
+    {
+        transform: rotateX(90deg);
+    }
+
+    60%,
+    80%
+    {
+        transform: rotateX(0deg);
+    }
+}
+
+
+@keyframes content1 {
+    100%,
+    0%,
+    20%
+    {
+        margin-bottom: .25em ;
+    }
+
+    30%,
+    50%
+    {
+        margin-bottom: .25em ;
+    }
+
+    60%,
+    80%
+    {
+        margin-bottom: .25em ;
+    }
+}
+@keyframes content2 {
+    100%,
+    0%,
+    20%
+    {
+        margin-bottom: .25em ;
+        margin-top: .25em ;
+    }
+
+    30%,
+    55%
+    {
+        margin-bottom: .25em ;
+        margin-top: .25em ;
+        margin-right: 0;
+    }
+
+    60%,
+    80%
+    {
+        margin-bottom: .25em ;
+        margin-top: .25em ;
+        margin-right: .25em;
+    }
+}
+@keyframes content3 {
+    100%,
+    0%,
+    20%
+    {
+        margin-bottom: .25em ;
+        margin-top: .25em ;
+        margin-right: 0em;
+    }
+
+    30%,
+    50%
+    {
+        margin-bottom: .25em ;
+        margin-top: .25em ;
+        margin-right: .25em;
+        margin-left: 0;
+    }
+
+    60%,
+    80%
+    {
+        margin-bottom: .25em ;
+        margin-top: .25em ;
+        margin-right: .25em;
+        margin-left: .25em;
+    }
+}
+@keyframes content4 {
+    100%,
+    0%,
+    20%
+    {
+        margin-bottom: .25em ;
+        margin-top: .25em ;
+        margin-left: 0;
+    }
+
+    30%,
+    50%
+    {
+        margin-bottom: 0;
+        margin-top: .25em ;
+        margin-left: .25em;
+        margin-right: 0;
+    }
+
+    60%,
+    80%
+    {
+        margin-bottom: .25em ;
+        margin-top: .25em ;
+        margin-left: .25em;
+        margin-right: .5em;
+    }
+}
+@keyframes content5 {
+    100%,
+    0%,
+    20%
+    {
+        margin-bottom: .25em ;
+        margin-top: .25em ;
+    }
+
+    30%,
+    50%
+    {
+        margin-bottom: 0;
+        margin-top: .25em ;
+    }
+
+    60%,
+    80%
+    {
+        margin-bottom: 0;
+        margin-top: .25em ;
+    }
+
+}
+@keyframes content6 {
+    100%,
+    0%,
+    20%
+    {
+        margin-bottom: .25em ;
+        margin-top: .25em ;
+    }
+
+    30%,
+    50%
+    {
+        margin-bottom: .25em ;
+        margin-top: .25em ;
+        margin-right: 0;
+    }
+
+    60%,
+    80%
+    {
+        margin-bottom: .25em ;
+        margin-top: .25em ;
+        margin-right: .25em;
+    }
+
+}
+@keyframes content7 {
+    100%,
+    0%,
+    20%
+    {
+        margin-bottom: .25em ;
+        margin-top: .25em ;
+        margin-right: 0;
+    }
+
+    30%,
+    50%
+    {
+        margin-bottom: .25em ;
+        margin-top: .25em ;
+        margin-right: .25em;
+        margin-left: 0;
+    }
+
+    60%,
+    80%
+    {
+        margin-bottom: .25em ;
+        margin-top: .25em ;
+        margin-right: .25em;
+        margin-left: .25em;
+    }
+
+}
+@keyframes content8 {
+    100%,
+    0%,
+    20%
+    {
+        margin-bottom: .25em;
+        margin-top: .25em;
+        margin-left: 0;
+    }
+
+    30%,
+    50%
+    {
+        margin-bottom: 0;
+        margin-top: 0;
+        margin-left: .25em;
+        margin-right: 0;
+    }
+
+    60%,
+    80%
+    {
+        margin-bottom: .25em ;
+        margin-top: .25em ;
+        margin-left: .25em;
+        margin-right: .5em;
+    }
+
+}
+@keyframes content9 {
+    100%,
+    0%,
+    20%
+    {
+        margin-bottom: .25em ;
+        margin-top: .25em ;
+    }
+
+    30%,
+    50%
+    {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    60%,
+    80%
+    {
+        margin-bottom: .25em ;
+        margin-top: 0;
+    }
+
+}
+@keyframes content10 {
+    100%,
+    0%,
+    20%
+    {
+        margin-top: .25em ;
+        margin-right: 0;
+    }
+
+    30%,
+    50%
+    {
+        margin-top: .25em ;
+        margin-right: .25em;
+    }
+
+    60%,
+    80%
+    {
+        margin-top: .25em ;
+        margin-right: 0;
+    }
+
+}
+@keyframes content11 {
+    100%,
+    0%,
+    20%
+    {
+        margin-top: .25em ;
+        margin-left: 0;
+    }
+
+    30%,
+    50%
+    {
+        margin-top: 0;
+        margin-left: .25em;
+    }
+
+    60%,
+    80%
+    {
+        margin-top: .25em ;
+        margin-left: 0;
+    }
+
+}

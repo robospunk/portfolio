@@ -1,0 +1,8 @@
+<svg width="363" height="411" version="1" viewBox="0 101 363 411">
+  <g transform="translate(-75)">
+    <path fill="#264DE4" d="M256 512l-148-41-33-370h362l-33 370z"/>
+    <path fill="#2965F1" d="M376 447l28-316H256v350z"/>
+    <path fill="#EBEBEB" d="M150 268l4 46h102v-46zm-8-92l4 46h110v-46zm114 210l-51-13-3-37h-46l7 72 93 25z"/>
+    <path fill="#FFF" d="M361 268l9-92H256v46h64l-4 46h-60v46h56l-6 59-50 13v47l93-25 1-8 10-120z"/>
+  </g>
+</svg>
