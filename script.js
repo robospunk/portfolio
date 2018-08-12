@@ -77,6 +77,6 @@ function moveRight() {
 // window.onload = spin;
 
 
-left.addEventListener("click", moveLeft);
-right.addEventListener("click", moveRight);
+// left.addEventListener("click", moveLeft);
+// right.addEventListener("click", moveRight);
 // carousel.addEventListener("click", freeze);

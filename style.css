@@ -929,6 +929,7 @@ ul>span>span {
 
 .pc {
     margin-top: 1em;
+    max-width: 400px;
     width: 100%;
 }
 .mobile {
@@ -1185,7 +1186,6 @@ footer {
 
 @media
 screen and (orientation: landscape)
-/* (max-height: 700px) */
 {
     header {
         flex-direction: row;
@@ -1421,6 +1421,10 @@ screen and (orientation: landscape)
         width: calc(33% - 2em);
         max-width: 500px;
         margin: 0 1em;
+    }
+
+    #projects .card {
+        max-width: 400px;
     }
 
 }

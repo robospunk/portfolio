@@ -52,8 +52,71 @@
         <div class="pad lgreen"></div>
         <div id="projects" class="lblue tmgreen pad">
                 <h1 class="tcenter center">Projects</h1>
-                <p class="center tcenter large bold">Client Work</p>
             <div class="cards">
+                <!-- Street Eats -->
+                <div class="card inshadow">
+                        <div>
+                            <p class="large bold tcenter">Street Eats of Orleans</p>
+                            <a href="https://www.streeteatsoforleans.com/"
+                                target="_blank">
+                                <img class="pc" src="img/street-eats.jpg" alt="Street Eats of Orleans website">
+                                <img class="mobile" src="img/street-eats-mobile.png" alt="Street Eats of Orleans mobile website">
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div>
+                                <ul class="med tcenter">
+                                Technologies used
+                                <span><span>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>PHP</li>
+                                    <li>mySQL</li>
+                                </span></span>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="med bold tcenter center">Description</p>
+                                <p class="center">
+                                    The website for this foodtruck has a custom coded back-end editor to update the menu, hours, and location.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- Spunky Buttons -->
+                <div class="card inshadow">
+                    <div>
+                        <p class="large bold tcenter">Spunky Buttons</p>
+                        <a href="https://spunkybuttons.com/"
+                            target="_blank">
+                            <img class="pc" src="img/spunkybuttons.jpg" alt="Spunky Buttons Website">
+                            <img class="mobile" src="img/spunkybuttons-mobile.png" alt="Spunky Buttons mobile website">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <ul class="med tcenter">
+                            Technologies used
+                            <span><span>
+                                <li>Wordpress</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </span></span>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="med bold tcenter center">Description</p>
+                            <p class="center">
+                                Spunky Buttons is a pin and magnet making business based in Northampton Massachussets. I own and operate this company.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- A Pizza My Mind -->
                 <div class="card inshadow">
                     <div>
                         <p class="large bold tcenter">A Pizza My Mind</p>
@@ -82,12 +145,15 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="card inshadow">
                     <p class="large bold tcenter">More projects coming soon</p>
                 </div>
             </div>
-                <p class="center tcenter large bold">Tests and examples from <a class="large bold" href="https://codepen.io/Robospunk/">Codepen.io</a></p>
-                <p class="center tcenter">Some of these pens use technologies that are not yet supported on all browsers</p>
+
+            <p class="center tcenter large bold">Tests and examples from <a class="large bold" href="https://codepen.io/Robospunk/">Codepen.io</a></p>
+            <p class="center tcenter">Some of these pens use technologies that are not yet supported on all browsers</p>
+
             <div class="pens">
                 <div>
                     <p data-height="500" data-theme-id="0" data-slug-hash="eMBReV" data-default-tab="result" data-user="Robospunk" data-embed-version="2" data-pen-title="swirly dice" class="codepen">See the Pen <a href="https://codepen.io/Robospunk/pen/eMBReV/">swirly dice</a> by Joey Carlino (<a href="https://codepen.io/Robospunk">@Robospunk</a>) on <a href="https://codepen.io">CodePen</a>.</p>
@@ -121,7 +187,7 @@
     </footer>
 
 <script src="script.js"></script>
-<script src="gsap.js"></script>
+
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 </body>
 </html>
