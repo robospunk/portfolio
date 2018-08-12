@@ -120,7 +120,7 @@
                 <div class="card inshadow">
                     <div>
                         <p class="large bold tcenter">A Pizza My Mind</p>
-                        <a href="pizzamymind/index.php"
+                        <a href="pizzamymind/index.html"
                             target="_blank">
                             <img class="pc" src="img/pizza-01.jpg" alt="Pizza My Mind website">
                             <img class="mobile" src="img/pizzaphone.png" alt="Pizza My Mind mobile website">
